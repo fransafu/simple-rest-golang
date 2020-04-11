@@ -1,5 +1,7 @@
 FROM golang:1.14
 
+LABEL maintainer="fransafu@gmail.com"
+
 ENV PORT=8080
 
 WORKDIR /go/src/app
